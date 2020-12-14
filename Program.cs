@@ -7,8 +7,13 @@ namespace AulaPOO_Abstracao
     {
         static void Main(string[] args)
         {
-           Boleto boleto = new Boleto();
-           boleto.cancelar();
+          Boleto boleto = new Boleto();
+          boleto.Desconto(10);
+
+          Cartao cartao = new Cartao();
+          cartao.Desconto(5);
+        
+           
 
         }
     }
